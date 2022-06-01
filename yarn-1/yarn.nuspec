@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>yarn</id>
+    <version>1.22.15</version>
+    <title>Yarn (Install)</title>
+    <authors>Yarn Maintainers</authors>
+    <owners>Daniel Lo Nigro</owners>
+    <licenseUrl>https://github.com/yarnpkg/yarn/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://yarnpkg.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/yarnpkg/assets/master/yarn-kitten-circle.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Yarn is a package manager for the npm and bower registries with a few specific focuses.
+
+## Features
+
+**Determinism:** Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure.
+
+**Security:** Strict guarantees are placed around package installation. You have control over whether lifecycle scripts are executed for packages and package hashes are stored in the lockfile to ensure you get the same package each time.
+
+**Performance:** We're always performing operations such as package resolving and fetching in parallel. This ensures little idle time and maximum resource utilization.
+
+## Notes
+
+This package requires NodeJS. You can install via either the [nodejs](https://chocolatey.org/packages/nodejs) or [nodejs-lts](https://chocolatey.org/packages/nodejs-lts) package if you do not have it installed already.</description>
+    <summary>Package manager for the npm and bower package repositories</summary>
+    <releaseNotes>https://github.com/yarnpkg/yarn/releases/tag/v1.22.15</releaseNotes>
+    <tags>yarn node nodejs npm javascript packages bower admin</tags>
+    <projectSourceUrl>https://github.com/yarnpkg/yarn</projectSourceUrl>
+    <packageSourceUrl>https://github.com/yarnpkg/yarn/tree/master/resources/win-chocolatey</packageSourceUrl>
+    <docsUrl>https://yarnpkg.com/en/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/yarnpkg/yarn/issues</bugTrackerUrl>
+  </metadata>
+</package>
