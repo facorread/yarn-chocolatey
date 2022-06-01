@@ -7,7 +7,7 @@ $packageArgs = @{
   silentArgs = "/qn /norestart"
   validExitCodes = @(0, 3010, 1641)
   checksumType = 'sha512'
-  url = 'https://yarnpkg.com/downloads/1.22.19/yarn-1.22.19.msi'
+  url = 'https://yarnpkg.com/downloads/3.2.1/yarn-3.2.1.msi'
   checksum = '514781fd185845bf9816f57061bd9609254c6bfc20e642db621b592109af7fb4401a36e134ad253ea9d533170560223856655029e95ded7f5576ed62d47d6a53'
 }
 
