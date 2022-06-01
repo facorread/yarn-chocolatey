@@ -1,17 +1,14 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 
-$packageName = 'yarn'
-
 $packageArgs = @{
-  packageName = $packageName
+  packageName = 'yarn'
   softwareName = 'Yarn*'
   fileType = 'msi'
   silentArgs = "/qn /norestart"
   validExitCodes = @(0, 3010, 1641)
-  checksumType = 'sha256'
-
-  url = 'https://yarnpkg.com/downloads/1.22.15/yarn-1.22.15.msi'
-  checksum = '8E812AC4D27B4C04A54F32EB8823CFB54D02F5A4EC429E4091CCA38FA17E4113'
+  checksumType = 'sha512'
+  url = 'https://yarnpkg.com/downloads/1.22.19/yarn-1.22.19.msi'
+  checksum = '514781fd185845bf9816f57061bd9609254c6bfc20e642db621b592109af7fb4401a36e134ad253ea9d533170560223856655029e95ded7f5576ed62d47d6a53'
 }
 
 Install-ChocolateyPackage @packageArgs

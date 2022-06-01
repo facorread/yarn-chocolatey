@@ -2,15 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>yarn</id>
-    <version>1.22.15</version>
+    <version>1.22.19</version>
     <title>Yarn (Install)</title>
     <authors>Yarn Maintainers</authors>
-    <owners>Daniel Lo Nigro</owners>
+    <owners>Fabio A. Correa Duran</owners>
     <licenseUrl>https://github.com/yarnpkg/yarn/raw/master/LICENSE</licenseUrl>
-    <projectUrl>https://yarnpkg.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/yarnpkg/assets/master/yarn-kitten-circle.png</iconUrl>
+    <projectUrl>https://classic.yarnpkg.com</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/facorread/yarn-chocolatey/master/yarn.png</iconUrl>
+    <copyright>Copyright © 2016-present, Yarn Contributors. All rights reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Yarn is a package manager for the npm and bower registries with a few specific focuses.
+    <description>
+Yarn is a package manager for the npm and bower registries with a few specific focuses.
 
 ## Features
 
@@ -22,13 +24,14 @@
 
 ## Notes
 
-This package requires NodeJS. You can install via either the [nodejs](https://chocolatey.org/packages/nodejs) or [nodejs-lts](https://chocolatey.org/packages/nodejs-lts) package if you do not have it installed already.</description>
+This package requires NodeJS. You can install via either the [nodejs](https://chocolatey.org/packages/nodejs) or [nodejs-lts](https://chocolatey.org/packages/nodejs-lts) package if you do not have it installed already.
+    </description>
     <summary>Package manager for the npm and bower package repositories</summary>
-    <releaseNotes>https://github.com/yarnpkg/yarn/releases/tag/v1.22.15</releaseNotes>
+    <releaseNotes>https://github.com/yarnpkg/yarn/releases/tag/v1.22.19</releaseNotes>
     <tags>yarn node nodejs npm javascript packages bower admin</tags>
     <projectSourceUrl>https://github.com/yarnpkg/yarn</projectSourceUrl>
-    <packageSourceUrl>https://github.com/yarnpkg/yarn/tree/master/resources/win-chocolatey</packageSourceUrl>
-    <docsUrl>https://yarnpkg.com/en/docs/</docsUrl>
+    <packageSourceUrl>https://github.com/facorread/yarn-chocolatey</packageSourceUrl>
+    <docsUrl>https://classic.yarnpkg.com/docs</docsUrl>
     <bugTrackerUrl>https://github.com/yarnpkg/yarn/issues</bugTrackerUrl>
   </metadata>
 </package>
