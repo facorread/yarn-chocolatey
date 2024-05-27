@@ -2,17 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>yarn</id>
-    <version>1.22.19</version>
+    <version>1.22.22</version>
     <title>Yarn (Install)</title>
     <authors>Yarn Maintainers</authors>
     <owners>Fabio A. Correa Duran</owners>
     <licenseUrl>https://github.com/yarnpkg/yarn/raw/master/LICENSE</licenseUrl>
     <projectUrl>https://classic.yarnpkg.com</projectUrl>
     <iconUrl>https://cdn.rawgit.com/facorread/yarn-chocolatey/master/yarn.png</iconUrl>
-    <copyright>Copyright © 2016-present, Yarn Contributors. All rights reserved.</copyright>
+    <copyright>Copyright © 2016-2024, Yarn Contributors. All rights reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 Yarn is a package manager for the npm and bower registries with a few specific focuses.
+
+## Yarn Classic
+
+This package is the latest version of Yarn in the Classic Stable line (`1.x`). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream.
+
+While the Yarn Classic line (`1.x`) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended.
+
+Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack.
+
+To migrate, follow the [official migration instructions](https://yarnpkg.com/migration/overview) and, at your option, run `choco install yarn` as your first migration step.
 
 ## Features
 
